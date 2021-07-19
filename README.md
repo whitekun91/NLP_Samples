@@ -7,7 +7,7 @@ All codes are reference by this link : https://github.com/NLP-kr/tensorflow-ml-n
 
 Prepare chapter for NLP 
 
-1. Examples of NLP (Libraries, Base code...)
+1. [Examples of NLP (Libraries, Base code...)](https://github.com/rasnim/NLP_practice/tree/master/1.NLP_PREP)
 2. Preface of NLP
 
 Basic of NLP
