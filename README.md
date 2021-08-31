@@ -12,7 +12,7 @@ Prepare chapter for NLP
 
 Basic of NLP
 
-4. Text Classification
+4. [Text Classification](https://github.com/rasnim/NLP_practice/tree/master/3.NLP_CLASSIFY)
 5. Text Similarity
 
 In-depth of NLP
