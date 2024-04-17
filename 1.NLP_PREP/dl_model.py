@@ -28,6 +28,22 @@ def sequential_model():
     model.fit(tp.input_sequences, tp.labels, epochs=num_epochs, batch_size=batch_size)
 
 
+# Keras Sequential Another Version
+def sequential_model_ver_1():
+    model = tf.keras.Sequential()
+    model.add(layers.Embedding(vocab_size, emb_size, input_length=4))
+    model.add(layers.Lambda(lambda x: tf.reduce_mean(x, axis=1)))
+    model.add(layers.Dense(hidden_dimension, activation='relu'))
+    model.add(layers.Dense(output_dimension, activation='sigmoid'))
+
+    model.compile(optimizer=tf.keras.optimizers.Adam(0.001),
+                  loss='binary_crossentropy',
+                  metrics=['accuracy'])
+
+    model.summary()
+    model.fit(tp.input_sequences, tp.labels, epochs=num_epochs, batch_size=batch_size)
+
+
 # Keras Functional API
 def functional_model():
     inputs = layers.Input(shape=(4,))
@@ -118,6 +134,9 @@ def custom_layer():
 if __name__ == '__main__':
     # sequential
     sequential_model()
+
+    # sequential another version
+    sequential_model_ver_1()
 
     # functional
     functional_model()
