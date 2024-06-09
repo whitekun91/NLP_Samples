@@ -1,0 +1,56 @@
+absl-py @ file:///C:/b/abs_14wchyjaia/croot/absl-py_1714140489450/work
+astunparse==1.6.3
+Brotli @ file:///C:/b/abs_3d36mno480/croot/brotli-split_1714483178642/work
+certifi @ file:///C:/b/abs_55jxithrm3/croot/certifi_1717618077850/work/certifi
+charset-normalizer==3.3.2
+contourpy==1.2.1
+cycler==0.12.1
+flatbuffers==24.3.25
+fonttools==4.53.0
+gast==0.5.4
+google-pasta @ file:///Users/ktietz/demo/mc3/conda-bld/google-pasta_1630577991354/work
+grpcio==1.64.1
+h5py @ file:///C:/b/abs_c4ha_1xv14/croot/h5py_1715094776210/work
+idna @ file:///C:/b/abs_aad84bnnw5/croot/idna_1714398896795/work
+keras==3.3.3
+kiwisolver==1.4.5
+libclang==18.1.1
+Markdown==3.6
+markdown-it-py==3.0.0
+MarkupSafe @ file:///C:/b/abs_ecfdqh67b_/croot/markupsafe_1704206030535/work
+matplotlib==3.9.0
+mdurl==0.1.2
+mkl-fft @ file:///C:/b/abs_19i1y8ykas/croot/mkl_fft_1695058226480/work
+mkl-random @ file:///C:/b/abs_edwkj1_o69/croot/mkl_random_1695059866750/work
+mkl-service==2.4.0
+ml-dtypes==0.3.2
+namex==0.0.8
+numpy @ file:///C:/b/abs_c1ywpu18ar/croot/numpy_and_numpy_base_1708638681471/work/dist/numpy-1.26.4-cp310-cp310-win_amd64.whl#sha256=ebb5aa2b36d8afa5ec3231c19e5a1fc75b6d85e7db483f0fb9e77dad58469977
+opt-einsum==3.3.0
+optree==0.11.0
+packaging==24.0
+pandas==2.2.2
+pillow==10.3.0
+protobuf==4.25.3
+Pygments==2.18.0
+pyparsing==3.1.2
+PySocks @ file:///C:/ci_310/pysocks_1642089375450/work
+python-dateutil==2.9.0.post0
+pytz==2024.1
+requests==2.32.3
+rich==13.7.1
+seaborn==0.13.2
+six @ file:///tmp/build/80754af9/six_1644875935023/work
+tensorboard==2.16.2
+tensorboard-data-server==0.7.2
+tensorflow==2.16.1
+tensorflow-intel==2.16.1
+tensorflow-io-gcs-filesystem==0.31.0
+termcolor==2.4.0
+typing_extensions==4.12.2
+tzdata==2024.1
+urllib3 @ file:///C:/b/abs_8e4z8_gh1l/croot/urllib3_1715636317140/work
+Werkzeug @ file:///C:/b/abs_8bittcw9jr/croot/werkzeug_1716533366070/work
+win-inet-pton @ file:///C:/ci_310/win_inet_pton_1642658466512/work
+wordcloud==1.9.3
+wrapt==1.16.0
