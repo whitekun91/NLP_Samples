@@ -79,6 +79,8 @@ if __name__ == '__main__':
     # labels: 입력한 데이터에 대한 라벨
     # showmeans: 평균값을 마크함
 
+
+    # FIX matplotlib : label --> tick_labels
     plt.boxplot([review_len_by_token],
                 tick_labels=['token'],
                 showmeans=True)
