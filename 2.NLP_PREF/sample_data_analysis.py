@@ -39,11 +39,11 @@ if __name__ == '__main__':
     train_df = data(os.path.join(os.path.dirname(data_set), 'aclImdb', 'train'))
     test_df = data(os.path.join(os.path.dirname(data_set), 'aclImdb', 'test'))
 
-    print(train_df.head())
+    # print(train_df.head())
 
     reviews = list(train_df['review'])
 
-    print(reviews)
+    # print(reviews)
 
     # data analysis
     # 문자열 문장 리스트를 토크나이징
@@ -58,7 +58,7 @@ if __name__ == '__main__':
     plt.figure(figsize=(12, 5))
     plt.hist(review_len_by_token, bins=50, alpha=0.5, color='r', label='word')
     plt.hist(review_len_by_eumjeol, bins=50, alpha=0.5, color='b', label='alphabet')
-    plt.yscale('log', nonposy='clip')
+    plt.yscale('log')
 
     plt.title('Review Length Histogram')
     plt.xlabel('Review Length')
@@ -73,7 +73,6 @@ if __name__ == '__main__':
     print('제 1 사분위 길이: {}'.format(np.percentile(review_len_by_token, 25)))
     print('제 3 사분위 길이: {}'.format(np.percentile(review_len_by_token, 75)))
 
-
     plt.figure(figsize=(12, 5))
     # 박스플롯 생성
     # 첫번째 파라메터: 여러 분포에 대한 데이터 리스트를 입력
@@ -81,22 +80,22 @@ if __name__ == '__main__':
     # showmeans: 평균값을 마크함
 
     plt.boxplot([review_len_by_token],
-                labels=['token'],
+                tick_labels=['token'],
                 showmeans=True)
 
     plt.figure(figsize=(12, 5))
     plt.boxplot([review_len_by_eumjeol],
-                labels=['Eumjeol'],
+                tick_labels=['Eumjeol'],
                 showmeans=True)
 
     # wordcloud
-    wordcloud = WordCloud(stopwords=STOPWORDS, background_color='black', width=800, height=600).generate(' '.join(train_df['review']))
+    wordcloud = WordCloud(stopwords=STOPWORDS, background_color='black', width=800, height=600).generate(
+        ' '.join(train_df['review']))
 
     plt.figure(figsize=(15, 10))
     plt.imshow(wordcloud)
     plt.axis('off')
     plt.show()
-
 
     sentiment = train_df['sentiment'].value_counts()
     fig, axe = plt.subplots(ncols=1)

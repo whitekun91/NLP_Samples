@@ -12,6 +12,7 @@ google-pasta @ file:///Users/ktietz/demo/mc3/conda-bld/google-pasta_163057799135
 grpcio==1.64.1
 h5py @ file:///C:/b/abs_c4ha_1xv14/croot/h5py_1715094776210/work
 idna @ file:///C:/b/abs_aad84bnnw5/croot/idna_1714398896795/work
+joblib==1.4.2
 keras==3.3.3
 kiwisolver==1.4.5
 libclang==18.1.1
@@ -39,6 +40,8 @@ python-dateutil==2.9.0.post0
 pytz==2024.1
 requests==2.32.3
 rich==13.7.1
+scikit-learn==1.5.0
+scipy==1.13.1
 seaborn==0.13.2
 six @ file:///tmp/build/80754af9/six_1644875935023/work
 tensorboard==2.16.2
@@ -47,6 +50,7 @@ tensorflow==2.16.1
 tensorflow-intel==2.16.1
 tensorflow-io-gcs-filesystem==0.31.0
 termcolor==2.4.0
+threadpoolctl==3.5.0
 typing_extensions==4.12.2
 tzdata==2024.1
 urllib3 @ file:///C:/b/abs_8e4z8_gh1l/croot/urllib3_1715636317140/work
