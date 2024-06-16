@@ -121,7 +121,7 @@ rfc3986-validator @ file:///C:/b/abs_6e9azihr8o/croot/rfc3986-validator_16830590
 rich==13.7.1
 rpds-py @ file:///C:/b/abs_76j4g4la23/croot/rpds-py_1698947348047/work
 scikit-learn==1.5.0
-scipy==1.13.1
+scipy==1.12.0
 seaborn==0.13.2
 Send2Trash @ file:///C:/b/abs_08dh49ew26/croot/send2trash_1699371173324/work
 simplejson==3.19.2
