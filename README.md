@@ -15,7 +15,7 @@
 ## Basic of NLP
 
 > 4. [Text Classification](https://github.com/whitekun91/NLP_Samples/tree/master/3.NLP_CLASSIFY)
-> 5. Text Similarity
+> 5. [Text Similarity](https://github.com/whitekun91/NLP_Samples/tree/master/4.NLP_SIMILARITY)
 
 ## In-depth of NLP
 
