@@ -43,6 +43,7 @@ isoduration==20.11.0
 jedi @ file:///C:/ci/jedi_1644315428305/work
 Jinja2 @ file:///C:/b/abs_92fccttino/croot/jinja2_1716993447201/work
 joblib==1.4.2
+JPype1==1.5.0
 json5 @ file:///tmp/build/80754af9/json5_1624432770122/work
 jsonpointer==2.4
 jsonschema @ file:///C:/b/abs_d1c4sm8drk/croot/jsonschema_1699041668863/work
@@ -61,8 +62,10 @@ jupyterlab-widgets @ file:///C:/b/abs_62picw9xos/croot/jupyterlab_widgets_170932
 jupyterlab_server @ file:///C:/b/abs_e08i7qn9m8/croot/jupyterlab_server_1699555481806/work
 keras==3.3.3
 kiwisolver==1.4.5
+konlpy==0.6.0
 lab==8.2
 libclang==18.1.1
+lxml==5.2.2
 Markdown==3.6
 markdown-it-py==3.0.0
 MarkupSafe @ file:///C:/b/abs_ecfdqh67b_/croot/markupsafe_1704206030535/work
