@@ -19,7 +19,7 @@
 
 ## In-depth of NLP
 
-> 6. Chatbot 
+> 6. [Chatbot](https://github.com/whitekun91/NLP_Samples/tree/master/5.CHATBOT) 
 > 7. Pretrained & Fine-tuned Model
 
 ---
