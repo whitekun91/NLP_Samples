@@ -163,3 +163,4 @@ widgetsnbextension @ file:///C:/b/abs_a84ycxud7_/croot/widgetsnbextension_170932
 win-inet-pton @ file:///C:/ci_310/win_inet_pton_1642658466512/work
 wordcloud==1.9.3
 wrapt==1.16.0
+xgboost==2.1.0
