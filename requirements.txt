@@ -20,6 +20,7 @@ colorama @ file:///C:/b/abs_a9ozq0l032/croot/colorama_1672387194846/work
 comm @ file:///C:/b/abs_67a8058udb/croot/comm_1709322909844/work
 contourpy==1.2.1
 cycler==0.12.1
+Cython==3.0.10
 debugpy @ file:///C:/b/abs_c0y1fjipt2/croot/debugpy_1690906864587/work
 decorator @ file:///opt/conda/conda-bld/decorator_1643638310831/work
 defusedxml @ file:///tmp/build/80754af9/defusedxml_1615228127516/work
@@ -33,7 +34,7 @@ gast==0.5.4
 gensim==4.3.2
 google-pasta @ file:///Users/ktietz/demo/mc3/conda-bld/google-pasta_1630577991354/work
 grpcio==1.64.1
-h5py @ file:///C:/b/abs_c4ha_1xv14/croot/h5py_1715094776210/work
+h5py==3.11.0
 html5lib==1.1
 idna @ file:///C:/b/abs_aad84bnnw5/croot/idna_1714398896795/work
 ipykernel @ file:///C:/b/abs_c2u94kxcy6/croot/ipykernel_1705933907920/work
