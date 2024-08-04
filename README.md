@@ -2,7 +2,9 @@
 # NLP (Natural Language Processing) Starting with TensorFlow and Machine Learning 
 ## This contents are based of korean and english.
 
-[]
+<p align="center">
+<img src="https://raw.githubusercontent.com/whitekun91/NLP_Samples/master/docs/books_image.jpg">
+</p>
 
 > All codes are reference by this link : https://github.com/NLP-kr/tensorflow-ml-nlp-tf2
 ---
