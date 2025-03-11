@@ -61,7 +61,7 @@ jupyterlab @ file:///C:/b/abs_43venm28fu/croot/jupyterlab_1706802651134/work
 jupyterlab-pygments @ file:///tmp/build/80754af9/jupyterlab_pygments_1601490720602/work
 jupyterlab-widgets @ file:///C:/b/abs_62picw9xos/croot/jupyterlab_widgets_1709323131962/work
 jupyterlab_server @ file:///C:/b/abs_e08i7qn9m8/croot/jupyterlab_server_1699555481806/work
-keras==3.3.3
+keras==3.9.0
 kiwisolver==1.4.5
 konlpy==0.6.0
 lab==8.2
