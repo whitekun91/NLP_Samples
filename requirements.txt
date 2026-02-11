@@ -94,7 +94,7 @@ packaging @ file:///C:/b/abs_cc1h2xfosn/croot/packaging_1710807447479/work
 pandas==2.2.2
 pandocfilters @ file:///opt/conda/conda-bld/pandocfilters_1643405455980/work
 parso @ file:///opt/conda/conda-bld/parso_1641458642106/work
-pillow==10.3.0
+pillow==12.1.1
 platformdirs @ file:///C:/b/abs_b6z_yqw_ii/croot/platformdirs_1692205479426/work
 ply==3.11
 prometheus-client @ file:///C:/Windows/TEMP/abs_ab9nx8qb08/croots/recipe/prometheus_client_1659455104602/work
