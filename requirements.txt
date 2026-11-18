@@ -28,7 +28,7 @@ exceptiongroup @ file:///C:/b/abs_c5h1o1_b5b/croot/exceptiongroup_1706031441653/
 executing @ file:///opt/conda/conda-bld/executing_1646925071911/work
 fastjsonschema @ file:///C:/Users/BUILDE~1/AppData/Local/Temp/abs_ebruxzvd08/croots/recipe/python-fastjsonschema_1661376484940/work
 flatbuffers==24.3.25
-fonttools==4.53.0
+fonttools==4.61.0
 fqdn==1.5.1
 gast==0.5.4
 gensim==4.3.2
